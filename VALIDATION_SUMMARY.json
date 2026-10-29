@@ -1,0 +1,137 @@
+{
+  "head": "788c2d11b29f2d27beeecebb12d1604fcc79ec94",
+  "ci": [
+    {
+      "commandName": "canonical-windows-126-baseline-ci",
+      "passRecordsIncludingSubtests": 457,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-windows-126-candidate-ci",
+      "passRecordsIncludingSubtests": 476,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-windows-127-baseline-ci",
+      "passRecordsIncludingSubtests": 457,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-windows-127-candidate-ci",
+      "passRecordsIncludingSubtests": 476,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-linux-126-baseline-ci",
+      "passRecordsIncludingSubtests": 457,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-linux-126-candidate-ci",
+      "passRecordsIncludingSubtests": 476,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-linux-127-baseline-ci",
+      "passRecordsIncludingSubtests": 457,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    },
+    {
+      "commandName": "canonical-linux-127-candidate-ci",
+      "passRecordsIncludingSubtests": 476,
+      "coveragePercent": 88.4,
+      "returncode": 0
+    }
+  ],
+  "quality": "Both Go versions/OS candidate vet+build passed; Linux1.27 race passed; changed files gofmt passed; git diff --check passed",
+  "negativeControl": {
+    "sameCandidateTestsOnExactBaseline": true,
+    "failedRecordsIncludingParent": 19,
+    "originalTests": 2,
+    "newTopLevelTests": 1,
+    "newSubtests": 16
+  },
+  "packageConsumer": [
+    {
+      "commandName": "canonical-package-baseline-windows-126",
+      "actualRuntime": "go1.26.10",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 0,
+      "expectedReturncode": 1
+    },
+    {
+      "commandName": "canonical-package-candidate-windows-126",
+      "actualRuntime": "go1.26.10",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 6,
+      "expectedReturncode": 0
+    },
+    {
+      "commandName": "canonical-package-baseline-windows-127",
+      "actualRuntime": "go1.27.3",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 0,
+      "expectedReturncode": 1
+    },
+    {
+      "commandName": "canonical-package-candidate-windows-127",
+      "actualRuntime": "go1.27.3",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 6,
+      "expectedReturncode": 0
+    },
+    {
+      "commandName": "canonical-package-baseline-linux-126",
+      "actualRuntime": "go1.26.10",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 0,
+      "expectedReturncode": 1
+    },
+    {
+      "commandName": "canonical-package-candidate-linux-126",
+      "actualRuntime": "go1.26.10",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 6,
+      "expectedReturncode": 0
+    },
+    {
+      "commandName": "canonical-package-baseline-linux-127",
+      "actualRuntime": "go1.27.3",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 0,
+      "expectedReturncode": 1
+    },
+    {
+      "commandName": "canonical-package-candidate-linux-127",
+      "actualRuntime": "go1.27.3",
+      "cases": 6,
+      "checks": 18,
+      "passedCases": 6,
+      "expectedReturncode": 0
+    }
+  ],
+  "sourceIntegrity": {
+    "allGitBlobsMatch": true,
+    "changedFiles": [
+      "manipulation.go",
+      "manipulation_test.go"
+    ],
+    "licenseBlob": "25372c2b603953e0909e59eddd9bb157cccb0ad6"
+  },
+  "formatBoundary": "Whole-repository gofmt on exact canonical baseline and candidate both lists the identical unchanged doc.go comment formatting. Changed files are clean. CI does not have a format gate.",
+  "previousAttempts": "Original exports had autocrlf-converted CRLF; canonical exports were independently Git-blob checked and all final CI/package checks repeated. Initial Windows1.26 package command failed at toolchain bootstrap because GOSUMDB=off; direct previously verified exact binary passed candidate and reproduced baseline behavior. Raw failed outputs retained."
+}

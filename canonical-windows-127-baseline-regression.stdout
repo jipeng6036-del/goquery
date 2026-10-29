@@ -1,0 +1,93 @@
+=== RUN   TestAppendHtmlNamespaceContext
+    type_test.go:66: Expected 1 nodes, found 0.
+--- FAIL: TestAppendHtmlNamespaceContext (0.00s)
+=== RUN   TestSetHtmlNamespaceContext
+    type_test.go:66: Expected 0 nodes, found 1.
+    type_test.go:68: Node 0: &{Parent:0x11a332d34fc0 FirstChild:0x11a332d35420 LastChild:0x11a332d35420 PrevSibling:<nil> NextSibling:<nil> Type:ElementNode DataAtom:b Data:b Namespace: Attr:[]}.
+    manipulation_test.go:909: html title text = "x", want "<b>x</b>"
+--- FAIL: TestSetHtmlNamespaceContext (0.00s)
+=== RUN   TestHtmlInsertionNamespaceContext
+=== RUN   TestHtmlInsertionNamespaceContext/AppendHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">old&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">old&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/AppendHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">old<b>new</b></title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+        want <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/PrependHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;old</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;old</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;old</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/PrependHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>new</b>old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/SetHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/SetHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>new</b></title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/WrapInnerHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/WrapInnerHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>newold</b></title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/AfterHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">old&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">old&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/AfterHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">old<b>new</b></title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+        want <html><head><title id="html">old&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">old<b>new</b></title><title id="svg2">old<b>new</b></title></svg><math><title id="math">old<b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/BeforeHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;old</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;old</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;old</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/BeforeHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>new</b>old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;old</title></head><body><svg><title id="svg"><b>new</b>old</title><title id="svg2"><b>new</b>old</title></svg><math><title id="math"><b>new</b>old</title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/ReplaceWithHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/ReplaceWithHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>new</b></title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>new</b></title><title id="svg2"><b>new</b></title></svg><math><title id="math"><b>new</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/WrapHtml/html-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg">&lt;b&gt;new&lt;/b&gt;</title><title id="svg2">&lt;b&gt;new&lt;/b&gt;</title></svg><math><title id="math">&lt;b&gt;new&lt;/b&gt;</title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+=== RUN   TestHtmlInsertionNamespaceContext/WrapHtml/foreign-first
+    manipulation_test.go:970: batch insertion differs from individual insertion:
+        got  <html><head><title id="html"><b>newold</b></title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+        want <html><head><title id="html">&lt;b&gt;new&lt;/b&gt;</title></head><body><svg><title id="svg"><b>newold</b></title><title id="svg2"><b>newold</b></title></svg><math><title id="math"><b>newold</b></title></math></body></html>
+--- FAIL: TestHtmlInsertionNamespaceContext (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/AppendHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/AppendHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/PrependHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/PrependHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/SetHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/SetHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/WrapInnerHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/WrapInnerHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/AfterHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/AfterHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/BeforeHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/BeforeHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/ReplaceWithHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/ReplaceWithHtml/foreign-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/WrapHtml/html-first (0.00s)
+    --- FAIL: TestHtmlInsertionNamespaceContext/WrapHtml/foreign-first (0.00s)
+FAIL
+FAIL	github.com/PuerkitoBio/goquery	0.066s
+FAIL

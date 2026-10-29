@@ -1,0 +1,3 @@
+go: downloading github.com/PuerkitoBio/goquery v0.0.0-canonical
+go: downloading golang.org/x/net v0.58.0
+go: downloading github.com/andybalholm/cascadia v1.3.5

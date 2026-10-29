@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-29T21:40:05.779593+00:00",
+  "run": "https://github.com/jipeng6036-del/goquery/actions/runs/40959170934",
+  "head": "788c2d11b29f2d27beeecebb12d1604fcc79ec94",
+  "status": "SUCCESS",
+  "expectedJobs": 6,
+  "completedSuccessJobs": 6,
+  "upstreamWorkflowBlob": "546fccd06d483f155ffe0082b00c316389dcedf2",
+  "localScope": "Own public fork push run before PR; Ubuntu/macOS/Windows x Go1.26.x/1.27.x, original test.yml unchanged",
+  "logArchiveSha256": "b07a9e7c4069c55e7a337293585b648557fbf341c5e22aad9e3ab0b4630438ba",
+  "logArchiveBytes": 292670,
+  "upstreamPRCI": "Not yet triggered; no PR yet"
+}

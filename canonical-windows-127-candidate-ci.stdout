@@ -1,0 +1,2179 @@
+=== RUN   TestFirst
+--- PASS: TestFirst (0.00s)
+=== RUN   TestFirstEmpty
+--- PASS: TestFirstEmpty (0.00s)
+=== RUN   TestFirstInvalid
+--- PASS: TestFirstInvalid (0.00s)
+=== RUN   TestFirstRollback
+--- PASS: TestFirstRollback (0.00s)
+=== RUN   TestLast
+--- PASS: TestLast (0.00s)
+=== RUN   TestLastEmpty
+--- PASS: TestLastEmpty (0.00s)
+=== RUN   TestLastInvalid
+--- PASS: TestLastInvalid (0.00s)
+=== RUN   TestLastRollback
+--- PASS: TestLastRollback (0.00s)
+=== RUN   TestEq
+--- PASS: TestEq (0.00s)
+=== RUN   TestEqNegative
+--- PASS: TestEqNegative (0.00s)
+=== RUN   TestEqEmpty
+--- PASS: TestEqEmpty (0.00s)
+=== RUN   TestEqInvalid
+--- PASS: TestEqInvalid (0.00s)
+=== RUN   TestEqInvalidPositive
+--- PASS: TestEqInvalidPositive (0.00s)
+=== RUN   TestEqInvalidNegative
+--- PASS: TestEqInvalidNegative (0.00s)
+=== RUN   TestEqRollback
+--- PASS: TestEqRollback (0.00s)
+=== RUN   TestEqOutOfRangeRollback
+--- PASS: TestEqOutOfRangeRollback (0.00s)
+=== RUN   TestSlice
+--- PASS: TestSlice (0.00s)
+=== RUN   TestSliceToEnd
+--- PASS: TestSliceToEnd (0.00s)
+=== RUN   TestSliceEmpty
+--- PASS: TestSliceEmpty (0.00s)
+=== RUN   TestSliceInvalid
+--- PASS: TestSliceInvalid (0.00s)
+=== RUN   TestSliceInvalidToEnd
+--- PASS: TestSliceInvalidToEnd (0.00s)
+=== RUN   TestSliceOutOfBounds
+--- PASS: TestSliceOutOfBounds (0.00s)
+=== RUN   TestNegativeSliceStart
+--- PASS: TestNegativeSliceStart (0.00s)
+=== RUN   TestNegativeSliceEnd
+--- PASS: TestNegativeSliceEnd (0.00s)
+=== RUN   TestNegativeSliceBoth
+--- PASS: TestNegativeSliceBoth (0.00s)
+=== RUN   TestNegativeSliceToEnd
+--- PASS: TestNegativeSliceToEnd (0.00s)
+=== RUN   TestNegativeSliceOutOfBounds
+--- PASS: TestNegativeSliceOutOfBounds (0.00s)
+=== RUN   TestSliceRollback
+--- PASS: TestSliceRollback (0.00s)
+=== RUN   TestGet
+--- PASS: TestGet (0.00s)
+=== RUN   TestGetNegative
+--- PASS: TestGetNegative (0.00s)
+=== RUN   TestGetInvalid
+--- PASS: TestGetInvalid (0.00s)
+=== RUN   TestIndex
+--- PASS: TestIndex (0.00s)
+=== RUN   TestIndexSelector
+--- PASS: TestIndexSelector (0.00s)
+=== RUN   TestIndexSelectorInvalid
+--- PASS: TestIndexSelectorInvalid (0.00s)
+=== RUN   TestIndexOfNode
+--- PASS: TestIndexOfNode (0.00s)
+=== RUN   TestIndexOfNilNode
+--- PASS: TestIndexOfNilNode (0.00s)
+=== RUN   TestIndexOfSelection
+--- PASS: TestIndexOfSelection (0.00s)
+=== RUN   TestAdd
+--- PASS: TestAdd (0.00s)
+=== RUN   TestAddInvalid
+--- PASS: TestAddInvalid (0.00s)
+=== RUN   TestAddRollback
+--- PASS: TestAddRollback (0.00s)
+=== RUN   TestAddSelection
+--- PASS: TestAddSelection (0.00s)
+=== RUN   TestAddSelectionNil
+--- PASS: TestAddSelectionNil (0.00s)
+=== RUN   TestAddSelectionRollback
+--- PASS: TestAddSelectionRollback (0.00s)
+=== RUN   TestAddNodes
+--- PASS: TestAddNodes (0.00s)
+=== RUN   TestAddNodesNone
+--- PASS: TestAddNodesNone (0.00s)
+=== RUN   TestAddNodesRollback
+--- PASS: TestAddNodesRollback (0.00s)
+=== RUN   TestAddNodesBig
+--- PASS: TestAddNodesBig (0.00s)
+=== RUN   TestAndSelf
+--- PASS: TestAndSelf (0.00s)
+=== RUN   TestAndSelfRollback
+--- PASS: TestAndSelfRollback (0.00s)
+=== RUN   TestAddBack
+--- PASS: TestAddBack (0.00s)
+=== RUN   TestAddBackRollback
+--- PASS: TestAddBackRollback (0.00s)
+=== RUN   TestAddBackFiltered
+--- PASS: TestAddBackFiltered (0.00s)
+=== RUN   TestAddBackFilteredRollback
+--- PASS: TestAddBackFilteredRollback (0.00s)
+=== RUN   TestFilter
+--- PASS: TestFilter (0.00s)
+=== RUN   TestFilterNone
+--- PASS: TestFilterNone (0.00s)
+=== RUN   TestFilterInvalid
+--- PASS: TestFilterInvalid (0.00s)
+=== RUN   TestFilterRollback
+--- PASS: TestFilterRollback (0.00s)
+=== RUN   TestFilterFunction
+--- PASS: TestFilterFunction (0.00s)
+=== RUN   TestFilterFunctionRollback
+--- PASS: TestFilterFunctionRollback (0.00s)
+=== RUN   TestFilterNode
+--- PASS: TestFilterNode (0.00s)
+=== RUN   TestFilterNodeRollback
+--- PASS: TestFilterNodeRollback (0.00s)
+=== RUN   TestFilterSelection
+--- PASS: TestFilterSelection (0.00s)
+=== RUN   TestFilterSelectionRollback
+--- PASS: TestFilterSelectionRollback (0.00s)
+=== RUN   TestFilterSelectionNil
+--- PASS: TestFilterSelectionNil (0.00s)
+=== RUN   TestNot
+--- PASS: TestNot (0.00s)
+=== RUN   TestNotInvalid
+--- PASS: TestNotInvalid (0.00s)
+=== RUN   TestNotRollback
+--- PASS: TestNotRollback (0.00s)
+=== RUN   TestNotNone
+--- PASS: TestNotNone (0.00s)
+=== RUN   TestNotFunction
+--- PASS: TestNotFunction (0.00s)
+=== RUN   TestNotFunctionRollback
+--- PASS: TestNotFunctionRollback (0.00s)
+=== RUN   TestNotNode
+--- PASS: TestNotNode (0.00s)
+=== RUN   TestNotNodeRollback
+--- PASS: TestNotNodeRollback (0.00s)
+=== RUN   TestNotSelection
+--- PASS: TestNotSelection (0.00s)
+=== RUN   TestNotSelectionRollback
+--- PASS: TestNotSelectionRollback (0.00s)
+=== RUN   TestIntersection
+--- PASS: TestIntersection (0.00s)
+=== RUN   TestIntersectionRollback
+--- PASS: TestIntersectionRollback (0.00s)
+=== RUN   TestHas
+--- PASS: TestHas (0.00s)
+=== RUN   TestHasInvalid
+--- PASS: TestHasInvalid (0.00s)
+=== RUN   TestHasRollback
+--- PASS: TestHasRollback (0.00s)
+=== RUN   TestHasNodes
+--- PASS: TestHasNodes (0.00s)
+=== RUN   TestHasNodesRollback
+--- PASS: TestHasNodesRollback (0.00s)
+=== RUN   TestHasSelection
+--- PASS: TestHasSelection (0.00s)
+=== RUN   TestHasSelectionRollback
+--- PASS: TestHasSelectionRollback (0.00s)
+=== RUN   TestEnd
+--- PASS: TestEnd (0.00s)
+=== RUN   TestEndToTop
+--- PASS: TestEndToTop (0.00s)
+=== RUN   TestEach
+    iteration_test.go:14: At index 0, node div
+    iteration_test.go:14: At index 1, node div
+    iteration_test.go:14: At index 2, node div
+    iteration_test.go:14: At index 3, node div
+--- PASS: TestEach (0.00s)
+=== RUN   TestEachWithBreak
+    iteration_test.go:28: At index 0, node div
+--- PASS: TestEachWithBreak (0.00s)
+=== RUN   TestEachEmptySelection
+--- PASS: TestEachEmptySelection (0.00s)
+=== RUN   TestMap
+--- PASS: TestMap (0.00s)
+=== RUN   TestForRange
+--- PASS: TestForRange (0.00s)
+=== RUN   TestGenericMap
+--- PASS: TestGenericMap (0.00s)
+=== RUN   TestEachIter
+    iteration_test.go:116: At index 0, node div
+    iteration_test.go:116: At index 1, node div
+    iteration_test.go:116: At index 2, node div
+    iteration_test.go:116: At index 3, node div
+--- PASS: TestEachIter (0.00s)
+=== RUN   TestEachIterWithBreak
+    iteration_test.go:133: At index 0, node div
+--- PASS: TestEachIterWithBreak (0.00s)
+=== RUN   TestClonePreservesNamespaces
+=== RUN   TestClonePreservesNamespaces/document
+=== RUN   TestClonePreservesNamespaces/selection
+--- PASS: TestClonePreservesNamespaces (0.00s)
+    --- PASS: TestClonePreservesNamespaces/document (0.00s)
+    --- PASS: TestClonePreservesNamespaces/selection (0.00s)
+=== RUN   TestAfter
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div><div id="nf6" class="six odd row"></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAfter (0.00s)
+=== RUN   TestAfterMany
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div><div id="nf6" class="six odd row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div><div id="nf6" class="six odd row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAfterMany (0.00s)
+=== RUN   TestAfterWithRemoved
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAfterWithRemoved (0.00s)
+=== RUN   TestAfterSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div><div id="nf1" class="one even row"></div><div id="nf2" class="two odd row"></div>
+            <div id="foot">
+              
+              
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAfterSelection (0.00s)
+=== RUN   TestAfterHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div><strong>new node</strong>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAfterHtml (0.00s)
+=== RUN   TestAfterHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr>
+        						<td>Before1</td><td class="c1">Test</td><td class="c2">Again</td>
+        					</tr>
+        					<tr>
+        						<td>Before2</td><td class="c1">Test</td><td class="c2">Again</td>
+        					</tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestAfterHtmlContext (0.00s)
+=== RUN   TestAppend
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            <div id="nf6" class="six odd row"></div></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAppend (0.00s)
+=== RUN   TestAppendBody
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        <div id="nf6" class="six odd row"></div></body></html>
+--- PASS: TestAppendBody (0.00s)
+=== RUN   TestAppendSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            <div id="nf1" class="one even row"></div><div id="nf2" class="two odd row"></div></div>
+            <div id="foot">
+              
+              
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAppendSelection (0.00s)
+=== RUN   TestAppendSelectionExisting
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              
+              
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            <div id="n1" class="one even row"></div><div id="n2" class="two odd row"></div></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAppendSelectionExisting (0.00s)
+=== RUN   TestAppendClone
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"><div id="nf1" class="one even row"></div></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestAppendClone (0.00s)
+=== RUN   TestAppendHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"><strong>new node</strong></div>
+              <div id="n2" class="two odd row"><strong>new node</strong></div>
+              <div id="n3" class="three even row"><strong>new node</strong></div>
+              <div id="n4" class="four odd row"><strong>new node</strong></div>
+              <div id="n5" class="five even row"><strong>new node</strong></div>
+              <div id="n6" class="six odd row"><strong>new node</strong></div>
+            <strong>new node</strong></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"><strong>new node</strong></div>
+              <div id="nf2" class="two odd row"><strong>new node</strong></div>
+              <div id="nf3" class="three even row"><strong>new node</strong></div>
+              <div id="nf4" class="four odd row"><strong>new node</strong></div>
+              <div id="nf5" class="five even row odder"><strong>new node</strong></div>
+              <div id="nf6" class="six odd row"><strong>new node</strong></div>
+            <strong>new node</strong></div>
+          
+        
+        </body></html>
+--- PASS: TestAppendHtml (0.00s)
+=== RUN   TestAppendHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr>
+        						<td>Before1</td>
+        					<td class="c1">new1</td><td class="c2">new2</td></tr>
+        					<tr>
+        						<td>Before2</td>
+        					<td class="c1">new1</td><td class="c2">new2</td></tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestAppendHtmlContext (0.00s)
+=== RUN   TestBefore
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="nf6" class="six odd row"></div><div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestBefore (0.00s)
+=== RUN   TestBeforeWithRemoved
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestBeforeWithRemoved (0.00s)
+=== RUN   TestBeforeSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="nf1" class="one even row"></div><div id="nf2" class="two odd row"></div><div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              
+              
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestBeforeSelection (0.00s)
+=== RUN   TestBeforeHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <strong>new node</strong><div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestBeforeHtml (0.00s)
+=== RUN   TestBeforeHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr>
+        						<td class="c1">new1</td><td class="c2">new2</td><td>Before1</td>
+        					</tr>
+        					<tr>
+        						<td class="c1">new1</td><td class="c2">new2</td><td>Before2</td>
+        					</tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestBeforeHtmlContext (0.00s)
+=== RUN   TestEmpty
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestEmpty (0.00s)
+=== RUN   TestPrepend
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"><div id="nf6" class="six odd row"></div>
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrepend (0.00s)
+=== RUN   TestPrependBody
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body><div id="nf6" class="six odd row"></div>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrependBody (0.00s)
+=== RUN   TestPrependSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"><div id="nf1" class="one even row"></div><div id="nf2" class="two odd row"></div>
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              
+              
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrependSelection (0.00s)
+=== RUN   TestPrependSelectionExisting
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"><div id="n5" class="five even row"></div><div id="n6" class="six odd row"></div>
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              
+              
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrependSelectionExisting (0.00s)
+=== RUN   TestPrependClone
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"><div id="nf1" class="one even row"></div></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrependClone (0.00s)
+=== RUN   TestPrependHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"><strong>new node</strong>
+              <div id="n1" class="one even row"><strong>new node</strong></div>
+              <div id="n2" class="two odd row"><strong>new node</strong></div>
+              <div id="n3" class="three even row"><strong>new node</strong></div>
+              <div id="n4" class="four odd row"><strong>new node</strong></div>
+              <div id="n5" class="five even row"><strong>new node</strong></div>
+              <div id="n6" class="six odd row"><strong>new node</strong></div>
+            </div>
+            <div id="foot"><strong>new node</strong>
+              <div id="nf1" class="one even row"><strong>new node</strong></div>
+              <div id="nf2" class="two odd row"><strong>new node</strong></div>
+              <div id="nf3" class="three even row"><strong>new node</strong></div>
+              <div id="nf4" class="four odd row"><strong>new node</strong></div>
+              <div id="nf5" class="five even row odder"><strong>new node</strong></div>
+              <div id="nf6" class="six odd row"><strong>new node</strong></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestPrependHtml (0.00s)
+=== RUN   TestPrependHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr><td class="c1">new node</td><td class="c2">other new node</td>
+        						<td>Before1</td>
+        					</tr>
+        					<tr><td class="c1">new node</td><td class="c2">other new node</td>
+        						<td>Before2</td>
+        					</tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestPrependHtmlContext (0.00s)
+=== RUN   TestRemove
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestRemove (0.00s)
+=== RUN   TestRemoveAll
+    type_test.go:105: <!DOCTYPE html>
+--- PASS: TestRemoveAll (0.00s)
+=== RUN   TestRemoveRoot
+    type_test.go:105: <!DOCTYPE html>
+--- PASS: TestRemoveRoot (0.00s)
+=== RUN   TestRemoveFiltered
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestRemoveFiltered (0.00s)
+=== RUN   TestReplaceWith
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            </div>
+          
+        
+        </body></html>
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestReplaceWith (0.00s)
+=== RUN   TestReplaceWithHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="replace"></div>
+            <div id="replace"></div>
+          
+        
+        </body></html>
+--- PASS: TestReplaceWithHtml (0.00s)
+=== RUN   TestReplaceWithHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr>
+        						<td class="c1">Test</td><td class="c2">Replace</td>
+        					</tr>
+        					<tr>
+        						<td class="c1">Test</td><td class="c2">Replace</td>
+        					</tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestReplaceWithHtmlContext (0.00s)
+=== RUN   TestSetHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"><div id="replace">test</div></div>
+            <div id="foot"><div id="replace">test</div></div>
+          
+        
+        </body></html>
+--- PASS: TestSetHtml (0.00s)
+=== RUN   TestSetHtmlNoMatch
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestSetHtmlNoMatch (0.00s)
+=== RUN   TestSetHtmlEmpty
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main"></div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestSetHtmlEmpty (0.00s)
+=== RUN   TestSetHtmlContext
+    type_test.go:105: <html><head></head><body>
+        				<table>
+        					<tbody><tr><td class="c1">Test</td><td class="c2">Again</td></tr>
+        					<tr><td class="c1">Test</td><td class="c2">Again</td></tr>
+        				</tbody></table>
+        			
+        		</body></html>
+--- PASS: TestSetHtmlContext (0.00s)
+=== RUN   TestSetText
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">&lt;div id=&#34;replace&#34;&gt;test&lt;/div&gt;</div>
+            <div id="foot">&lt;div id=&#34;replace&#34;&gt;test&lt;/div&gt;</div>
+          
+        
+        </body></html>
+--- PASS: TestSetText (0.00s)
+=== RUN   TestReplaceWithSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              
+              <div id="nf5" class="five even row odder"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestReplaceWithSelection (0.00s)
+=== RUN   TestUnwrap
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            
+          
+        
+        </body></html>
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            
+            
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            
+          
+        
+        </body></html>
+--- PASS: TestUnwrap (0.00s)
+=== RUN   TestUnwrapBody
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestUnwrapBody (0.00s)
+=== RUN   TestUnwrapHead
+    type_test.go:105: <!DOCTYPE html><html>
+            <title>Tests for siblings</title>
+          
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestUnwrapHead (0.00s)
+=== RUN   TestUnwrapHtml
+    type_test.go:105: <!DOCTYPE html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body>
+--- PASS: TestUnwrapHtml (0.00s)
+=== RUN   TestWrap
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf2" class="two odd row"><div id="nf1" class="one even row"></div></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrap (0.00s)
+=== RUN   TestWrapEmpty
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapEmpty (0.00s)
+=== RUN   TestWrapHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="n2" class="two odd row"></div></b></em></p></div></div>
+              <div id="n3" class="three even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="n4" class="four odd row"></div></b></em></p></div></div>
+              <div id="n5" class="five even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="n6" class="six odd row"></div></b></em></p></div></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="nf2" class="two odd row"></div></b></em></p></div></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="nf4" class="four odd row"></div></b></em></p></div></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="ins">test string<div><p><em><b><div id="nf6" class="six odd row"></div></b></em></p></div></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapHtml (0.00s)
+=== RUN   TestWrapSelection
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf2" class="two odd row"><div id="nf1" class="one even row"></div></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapSelection (0.00s)
+=== RUN   TestWrapAll
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="nf1" class="one even row"><div id="n2" class="two odd row"></div><div id="n4" class="four odd row"></div><div id="n6" class="six odd row"></div><div id="nf2" class="two odd row"></div><div id="nf4" class="four odd row"></div><div id="nf6" class="six odd row"></div></div>
+              <div id="n3" class="three even row"></div>
+              
+              <div id="n5" class="five even row"></div>
+              
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              
+              <div id="nf3" class="three even row"></div>
+              
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapAll (0.00s)
+=== RUN   TestWrapAllHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="ins">test string<div><p><em><b><div id="n2" class="two odd row"></div><div id="n4" class="four odd row"></div><div id="n6" class="six odd row"></div><div id="nf2" class="two odd row"></div><div id="nf4" class="four odd row"></div><div id="nf6" class="six odd row"></div></b></em></p></div></div>
+              <div id="n3" class="three even row"></div>
+              
+              <div id="n5" class="five even row"></div>
+              
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              
+              <div id="nf3" class="three even row"></div>
+              
+              <div id="nf5" class="five even row odder"></div>
+              
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapAllHtml (0.00s)
+=== RUN   TestWrapInnerNoContent
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"><div id="n2" class="two odd row"></div></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"><div id="n2" class="two odd row"></div></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapInnerNoContent (0.00s)
+=== RUN   TestWrapInnerWithContent
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"><div id="n2" class="two odd row">hello</div></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"><div id="n2" class="two odd row">text</div></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapInnerWithContent (0.00s)
+=== RUN   TestWrapInnerNoWrapper
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot">
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </div>
+          
+        
+        </body></html>
+--- PASS: TestWrapInnerNoWrapper (0.00s)
+=== RUN   TestWrapInnerHtml
+    type_test.go:105: <!DOCTYPE html><html><head>
+            <title>Tests for siblings</title>
+          </head>
+          <body>
+            <div id="main">
+              <div id="n1" class="one even row"></div>
+              <div id="n2" class="two odd row"></div>
+              <div id="n3" class="three even row"></div>
+              <div id="n4" class="four odd row"></div>
+              <div id="n5" class="five even row"></div>
+              <div id="n6" class="six odd row"></div>
+            </div>
+            <div id="foot"><div id="ins">test string<div><p><em><b>
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder"></div>
+              <div id="nf6" class="six odd row"></div>
+            </b></em></p></div></div></div>
+          
+        
+        </body></html>
+--- PASS: TestWrapInnerHtml (0.00s)
+=== RUN   TestParsingRespectsVaryingContext
+    type_test.go:105: <html><head></head><body>
+        			<a class="x">Hello</a>
+        		
+        	</body></html>
+    type_test.go:105: <html><head></head><body>
+        			<table class="x"><tbody><tr><td>Hello</td></tr></tbody></table>
+        		
+        	</body></html>
+    type_test.go:105: <html><head></head><body>
+        			<table class="x"><tbody><tr><td>Hello</td></tr></tbody></table>
+        			<a class="x">Hello</a>
+        		
+        	</body></html>
+--- PASS: TestParsingRespectsVaryingContext (0.00s)
+=== RUN   TestHtmlWithNonElementNode
+=== RUN   TestHtmlWithNonElementNode/AppendHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p>
+              This is <span>some<div></div></span><b>text<div></div></b>.
+            </p>
+          
+        
+        </body></html>
+=== RUN   TestHtmlWithNonElementNode/BeforeHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p><div></div>
+              This is <div></div><span>some</span><div></div><b>text</b><div></div>.
+            </p>
+          
+        
+        </body></html>
+=== RUN   TestHtmlWithNonElementNode/PrependHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p>
+              This is <span><div></div>some</span><b><div></div>text</b>.
+            </p>
+          
+        
+        </body></html>
+=== RUN   TestHtmlWithNonElementNode/ReplaceWithHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p><div></div><div></div><div></div><div></div></p>
+          
+        
+        </body></html>
+=== RUN   TestHtmlWithNonElementNode/SetHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p>
+              This is <span><div></div></span><b><div></div></b>.
+            </p>
+          
+        
+        </body></html>
+=== RUN   TestHtmlWithNonElementNode/AfterHtml
+    manipulation_test.go:758: <html><head>
+          </head>
+          <body>
+            <p>
+              This is <div></div><span>some</span><div></div><b>text</b><div></div>.
+            <div></div></p>
+          
+        
+        </body></html>
+--- PASS: TestHtmlWithNonElementNode (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/AppendHtml (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/BeforeHtml (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/PrependHtml (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/ReplaceWithHtml (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/SetHtml (0.00s)
+    --- PASS: TestHtmlWithNonElementNode/AfterHtml (0.00s)
+=== RUN   TestFormAncestorCache
+=== RUN   TestFormAncestorCache/AppendHtml
+=== RUN   TestFormAncestorCache/PrependHtml
+=== RUN   TestFormAncestorCache/SetHtml
+=== RUN   TestFormAncestorCache/BeforeHtml
+=== RUN   TestFormAncestorCache/AfterHtml
+=== RUN   TestFormAncestorCache/ReplaceWithHtml
+=== RUN   TestFormAncestorCache/WrapHtml
+=== RUN   TestFormAncestorCache/WrapInnerHtml
+--- PASS: TestFormAncestorCache (0.00s)
+    --- PASS: TestFormAncestorCache/AppendHtml (0.00s)
+    --- PASS: TestFormAncestorCache/PrependHtml (0.00s)
+    --- PASS: TestFormAncestorCache/SetHtml (0.00s)
+    --- PASS: TestFormAncestorCache/BeforeHtml (0.00s)
+    --- PASS: TestFormAncestorCache/AfterHtml (0.00s)
+    --- PASS: TestFormAncestorCache/ReplaceWithHtml (0.00s)
+    --- PASS: TestFormAncestorCache/WrapHtml (0.00s)
+    --- PASS: TestFormAncestorCache/WrapInnerHtml (0.00s)
+=== RUN   TestAppendHtmlFormAncestorContext
+--- PASS: TestAppendHtmlFormAncestorContext (0.00s)
+=== RUN   TestPrependHtmlFormAncestorContext
+--- PASS: TestPrependHtmlFormAncestorContext (0.00s)
+=== RUN   TestSetHtmlFormAncestorContext
+--- PASS: TestSetHtmlFormAncestorContext (0.00s)
+=== RUN   TestAppendHtmlNamespaceContext
+--- PASS: TestAppendHtmlNamespaceContext (0.00s)
+=== RUN   TestSetHtmlNamespaceContext
+--- PASS: TestSetHtmlNamespaceContext (0.00s)
+=== RUN   TestHtmlInsertionNamespaceContext
+=== RUN   TestHtmlInsertionNamespaceContext/AppendHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/AppendHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/PrependHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/PrependHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/SetHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/SetHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/WrapInnerHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/WrapInnerHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/AfterHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/AfterHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/BeforeHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/BeforeHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/ReplaceWithHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/ReplaceWithHtml/foreign-first
+=== RUN   TestHtmlInsertionNamespaceContext/WrapHtml/html-first
+=== RUN   TestHtmlInsertionNamespaceContext/WrapHtml/foreign-first
+--- PASS: TestHtmlInsertionNamespaceContext (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/AppendHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/AppendHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/PrependHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/PrependHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/SetHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/SetHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/WrapInnerHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/WrapInnerHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/AfterHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/AfterHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/BeforeHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/BeforeHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/ReplaceWithHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/ReplaceWithHtml/foreign-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/WrapHtml/html-first (0.00s)
+    --- PASS: TestHtmlInsertionNamespaceContext/WrapHtml/foreign-first (0.00s)
+=== RUN   TestSetAttrNonElementNodes
+=== RUN   TestSetAttrNonElementNodes/document/new
+=== RUN   TestSetAttrNonElementNodes/document/existing
+=== RUN   TestSetAttrNonElementNodes/doctype/new
+=== RUN   TestSetAttrNonElementNodes/doctype/existing
+=== RUN   TestSetAttrNonElementNodes/text/new
+=== RUN   TestSetAttrNonElementNodes/text/existing
+=== RUN   TestSetAttrNonElementNodes/comment/new
+=== RUN   TestSetAttrNonElementNodes/comment/existing
+--- PASS: TestSetAttrNonElementNodes (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/document/new (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/document/existing (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/doctype/new (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/doctype/existing (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/text/new (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/text/existing (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/comment/new (0.00s)
+    --- PASS: TestSetAttrNonElementNodes/comment/existing (0.00s)
+=== RUN   TestSetAttrMixedContents
+--- PASS: TestSetAttrMixedContents (0.00s)
+=== RUN   TestClassOperationsNonElementNodes
+=== RUN   TestClassOperationsNonElementNodes/AddClass/document
+=== RUN   TestClassOperationsNonElementNodes/AddClass/doctype
+=== RUN   TestClassOperationsNonElementNodes/AddClass/text
+=== RUN   TestClassOperationsNonElementNodes/AddClass/comment
+=== RUN   TestClassOperationsNonElementNodes/AddClass/mixed_content
+=== RUN   TestClassOperationsNonElementNodes/AddClass/element
+=== RUN   TestClassOperationsNonElementNodes/AddClass/empty
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/document
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/doctype
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/text
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/comment
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/mixed_content
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/element
+=== RUN   TestClassOperationsNonElementNodes/ToggleClass/empty
+--- PASS: TestClassOperationsNonElementNodes (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/document (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/doctype (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/text (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/comment (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/mixed_content (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/element (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/AddClass/empty (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/document (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/doctype (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/text (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/comment (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/mixed_content (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/element (0.00s)
+    --- PASS: TestClassOperationsNonElementNodes/ToggleClass/empty (0.00s)
+=== RUN   TestAttrExists
+    property_test.go:13: Href of first anchor: /.
+--- PASS: TestAttrExists (0.00s)
+=== RUN   TestAttrOr
+    property_test.go:21: Value returned for not existing attribute: alternative.
+    property_test.go:26: Value returned for empty selection: alternative.
+--- PASS: TestAttrOr (0.00s)
+=== RUN   TestAttrNotExist
+--- PASS: TestAttrNotExist (0.00s)
+=== RUN   TestRemoveAttr
+--- PASS: TestRemoveAttr (0.00s)
+=== RUN   TestSetAttr
+--- PASS: TestSetAttr (0.00s)
+=== RUN   TestSetAttr2
+--- PASS: TestSetAttr2 (0.00s)
+=== RUN   TestText
+--- PASS: TestText (0.00s)
+=== RUN   TestText2
+--- PASS: TestText2 (0.00s)
+=== RUN   TestText3
+--- PASS: TestText3 (0.00s)
+=== RUN   TestHtml
+--- PASS: TestHtml (0.00s)
+=== RUN   TestNbsp
+--- PASS: TestNbsp (0.00s)
+=== RUN   TestAddClass
+--- PASS: TestAddClass (0.00s)
+=== RUN   TestAddClassSimilar
+    type_test.go:105: 
+              <div id="nf1" class="one even row"></div>
+              <div id="nf2" class="two odd row"></div>
+              <div id="nf3" class="three even row"></div>
+              <div id="nf4" class="four odd row"></div>
+              <div id="nf5" class="five even row odder odd"></div>
+              <div id="nf6" class="six odd row"></div>
+            
+--- PASS: TestAddClassSimilar (0.00s)
+=== RUN   TestAddEmptyClass
+--- PASS: TestAddEmptyClass (0.00s)
+=== RUN   TestAddClasses
+--- PASS: TestAddClasses (0.00s)
+=== RUN   TestHasClass
+--- PASS: TestHasClass (0.00s)
+=== RUN   TestHasClassNone
+--- PASS: TestHasClassNone (0.00s)
+=== RUN   TestHasClassNotFirst
+--- PASS: TestHasClassNotFirst (0.00s)
+=== RUN   TestClassOperationsASCIIWhitespace
+=== RUN   TestClassOperationsASCIIWhitespace/space
+=== RUN   TestClassOperationsASCIIWhitespace/space/add
+=== RUN   TestClassOperationsASCIIWhitespace/space/remove
+=== RUN   TestClassOperationsASCIIWhitespace/space/toggle
+=== RUN   TestClassOperationsASCIIWhitespace/tab
+=== RUN   TestClassOperationsASCIIWhitespace/tab/add
+=== RUN   TestClassOperationsASCIIWhitespace/tab/remove
+=== RUN   TestClassOperationsASCIIWhitespace/tab/toggle
+=== RUN   TestClassOperationsASCIIWhitespace/line_feed
+=== RUN   TestClassOperationsASCIIWhitespace/line_feed/add
+=== RUN   TestClassOperationsASCIIWhitespace/line_feed/remove
+=== RUN   TestClassOperationsASCIIWhitespace/line_feed/toggle
+=== RUN   TestClassOperationsASCIIWhitespace/carriage_return
+=== RUN   TestClassOperationsASCIIWhitespace/carriage_return/add
+=== RUN   TestClassOperationsASCIIWhitespace/carriage_return/remove
+=== RUN   TestClassOperationsASCIIWhitespace/carriage_return/toggle
+=== RUN   TestClassOperationsASCIIWhitespace/form_feed
+=== RUN   TestClassOperationsASCIIWhitespace/form_feed/add
+=== RUN   TestClassOperationsASCIIWhitespace/form_feed/remove
+=== RUN   TestClassOperationsASCIIWhitespace/form_feed/toggle
+--- PASS: TestClassOperationsASCIIWhitespace (0.00s)
+    --- PASS: TestClassOperationsASCIIWhitespace/space (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/space/add (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/space/remove (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/space/toggle (0.00s)
+    --- PASS: TestClassOperationsASCIIWhitespace/tab (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/tab/add (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/tab/remove (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/tab/toggle (0.00s)
+    --- PASS: TestClassOperationsASCIIWhitespace/line_feed (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/line_feed/add (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/line_feed/remove (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/line_feed/toggle (0.00s)
+    --- PASS: TestClassOperationsASCIIWhitespace/carriage_return (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/carriage_return/add (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/carriage_return/remove (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/carriage_return/toggle (0.00s)
+    --- PASS: TestClassOperationsASCIIWhitespace/form_feed (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/form_feed/add (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/form_feed/remove (0.00s)
+        --- PASS: TestClassOperationsASCIIWhitespace/form_feed/toggle (0.00s)
+=== RUN   TestClassOperationsRepeatedFormFeed
+=== RUN   TestClassOperationsRepeatedFormFeed/_a_b_
+=== RUN   TestClassOperationsRepeatedFormFeed/a__b
+=== RUN   TestClassOperationsRepeatedFormFeed/a_a_b
+--- PASS: TestClassOperationsRepeatedFormFeed (0.00s)
+    --- PASS: TestClassOperationsRepeatedFormFeed/_a_b_ (0.00s)
+    --- PASS: TestClassOperationsRepeatedFormFeed/a__b (0.00s)
+    --- PASS: TestClassOperationsRepeatedFormFeed/a_a_b (0.00s)
+=== RUN   TestRemoveClass
+--- PASS: TestRemoveClass (0.00s)
+=== RUN   TestRemoveClassSimilar
+    type_test.go:105: 
+--- PASS: TestRemoveClassSimilar (0.00s)
+=== RUN   TestRemoveAllClasses
+--- PASS: TestRemoveAllClasses (0.00s)
+=== RUN   TestToggleClass
+--- PASS: TestToggleClass (0.00s)
+=== RUN   TestRemoveClassRepeatedInSource
+--- PASS: TestRemoveClassRepeatedInSource (0.00s)
+=== RUN   TestToggleClassRepeatedInSource
+--- PASS: TestToggleClassRepeatedInSource (0.00s)
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_b
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_a
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_a
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_a#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#01
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_a#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#02
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_a#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/a_#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/add/_#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/remove/_#03
+=== RUN   TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#03
+--- PASS: TestClassOperationsPreserveNonASCIIWhitespace (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_b (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_a (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_a (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_ (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_a#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#01 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_a#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#02 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_b#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_b#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_b#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_a#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_a#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_a#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/a_#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/a_#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/a_#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/add/_#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/remove/_#03 (0.00s)
+    --- PASS: TestClassOperationsPreserveNonASCIIWhitespace/toggle/_#03 (0.00s)
+=== RUN   TestClassTokensASCIIWhitespace
+--- PASS: TestClassTokensASCIIWhitespace (0.00s)
+=== RUN   TestClassOperationsKeepUnicodeAtAttributeEdges
+--- PASS: TestClassOperationsKeepUnicodeAtAttributeEdges (0.00s)
+=== RUN   TestIs
+--- PASS: TestIs (0.00s)
+=== RUN   TestIsInvalid
+--- PASS: TestIsInvalid (0.00s)
+=== RUN   TestIsPositional
+--- PASS: TestIsPositional (0.00s)
+=== RUN   TestIsPositionalNot
+--- PASS: TestIsPositionalNot (0.00s)
+=== RUN   TestIsFunction
+--- PASS: TestIsFunction (0.00s)
+=== RUN   TestIsFunctionRollback
+--- PASS: TestIsFunctionRollback (0.00s)
+=== RUN   TestIsSelection
+--- PASS: TestIsSelection (0.00s)
+=== RUN   TestIsSelectionNot
+--- PASS: TestIsSelectionNot (0.00s)
+=== RUN   TestIsNodes
+--- PASS: TestIsNodes (0.00s)
+=== RUN   TestDocContains
+--- PASS: TestDocContains (0.00s)
+=== RUN   TestSelContains
+--- PASS: TestSelContains (0.00s)
+=== RUN   TestSelNotContains
+--- PASS: TestSelNotContains (0.00s)
+=== RUN   TestFind
+--- PASS: TestFind (0.00s)
+=== RUN   TestFindRollback
+--- PASS: TestFindRollback (0.00s)
+=== RUN   TestFindNotSelf
+--- PASS: TestFindNotSelf (0.00s)
+=== RUN   TestFindInvalid
+--- PASS: TestFindInvalid (0.00s)
+=== RUN   TestFindBig
+--- PASS: TestFindBig (0.00s)
+=== RUN   TestChainedFind
+--- PASS: TestChainedFind (0.00s)
+=== RUN   TestChainedFindInvalid
+--- PASS: TestChainedFindInvalid (0.00s)
+=== RUN   TestChildren
+--- PASS: TestChildren (0.00s)
+=== RUN   TestChildrenDuplicateSourceNodes
+--- PASS: TestChildrenDuplicateSourceNodes (0.00s)
+=== RUN   TestChildrenRollback
+--- PASS: TestChildrenRollback (0.00s)
+=== RUN   TestContents
+--- PASS: TestContents (0.00s)
+=== RUN   TestContentsRollback
+--- PASS: TestContentsRollback (0.00s)
+=== RUN   TestChildrenFiltered
+--- PASS: TestChildrenFiltered (0.00s)
+=== RUN   TestChildrenFilteredInvalid
+--- PASS: TestChildrenFilteredInvalid (0.00s)
+=== RUN   TestChildrenFilteredRollback
+--- PASS: TestChildrenFilteredRollback (0.00s)
+=== RUN   TestContentsFiltered
+--- PASS: TestContentsFiltered (0.00s)
+=== RUN   TestContentsFilteredInvalid
+--- PASS: TestContentsFilteredInvalid (0.00s)
+=== RUN   TestContentsFilteredRollback
+--- PASS: TestContentsFilteredRollback (0.00s)
+=== RUN   TestChildrenFilteredNone
+--- PASS: TestChildrenFilteredNone (0.00s)
+=== RUN   TestParent
+--- PASS: TestParent (0.00s)
+=== RUN   TestParentRollback
+--- PASS: TestParentRollback (0.00s)
+=== RUN   TestParentBody
+--- PASS: TestParentBody (0.00s)
+=== RUN   TestParentFiltered
+--- PASS: TestParentFiltered (0.00s)
+=== RUN   TestParentFilteredInvalid
+--- PASS: TestParentFilteredInvalid (0.00s)
+=== RUN   TestParentFilteredRollback
+--- PASS: TestParentFilteredRollback (0.00s)
+=== RUN   TestParents
+--- PASS: TestParents (0.00s)
+=== RUN   TestParentsOrder
+--- PASS: TestParentsOrder (0.00s)
+=== RUN   TestParentsRollback
+--- PASS: TestParentsRollback (0.00s)
+=== RUN   TestParentsFiltered
+--- PASS: TestParentsFiltered (0.00s)
+=== RUN   TestParentsFilteredInvalid
+--- PASS: TestParentsFilteredInvalid (0.00s)
+=== RUN   TestParentsFilteredRollback
+--- PASS: TestParentsFilteredRollback (0.00s)
+=== RUN   TestParentsUntil
+--- PASS: TestParentsUntil (0.00s)
+=== RUN   TestParentsUntilInvalid
+--- PASS: TestParentsUntilInvalid (0.00s)
+=== RUN   TestParentsUntilRollback
+--- PASS: TestParentsUntilRollback (0.00s)
+=== RUN   TestParentsUntilSelection
+--- PASS: TestParentsUntilSelection (0.00s)
+=== RUN   TestParentsUntilSelectionRollback
+--- PASS: TestParentsUntilSelectionRollback (0.00s)
+=== RUN   TestParentsUntilNodes
+--- PASS: TestParentsUntilNodes (0.00s)
+=== RUN   TestParentsUntilNodesRollback
+--- PASS: TestParentsUntilNodesRollback (0.00s)
+=== RUN   TestParentsFilteredUntil
+--- PASS: TestParentsFilteredUntil (0.00s)
+=== RUN   TestParentsFilteredUntilInvalid
+--- PASS: TestParentsFilteredUntilInvalid (0.00s)
+=== RUN   TestParentsFilteredUntilRollback
+--- PASS: TestParentsFilteredUntilRollback (0.00s)
+=== RUN   TestParentsFilteredUntilSelection
+--- PASS: TestParentsFilteredUntilSelection (0.00s)
+=== RUN   TestParentsFilteredUntilSelectionRollback
+--- PASS: TestParentsFilteredUntilSelectionRollback (0.00s)
+=== RUN   TestParentsFilteredUntilNodes
+--- PASS: TestParentsFilteredUntilNodes (0.00s)
+=== RUN   TestParentsFilteredUntilNodesRollback
+--- PASS: TestParentsFilteredUntilNodesRollback (0.00s)
+=== RUN   TestSiblings
+--- PASS: TestSiblings (0.00s)
+=== RUN   TestSiblingsRollback
+--- PASS: TestSiblingsRollback (0.00s)
+=== RUN   TestSiblings2
+--- PASS: TestSiblings2 (0.00s)
+=== RUN   TestSiblings3
+--- PASS: TestSiblings3 (0.00s)
+=== RUN   TestSiblingsFiltered
+--- PASS: TestSiblingsFiltered (0.00s)
+=== RUN   TestSiblingsFilteredInvalid
+--- PASS: TestSiblingsFilteredInvalid (0.00s)
+=== RUN   TestSiblingsFilteredRollback
+--- PASS: TestSiblingsFilteredRollback (0.00s)
+=== RUN   TestNext
+--- PASS: TestNext (0.00s)
+=== RUN   TestNextRollback
+--- PASS: TestNextRollback (0.00s)
+=== RUN   TestNext2
+--- PASS: TestNext2 (0.00s)
+=== RUN   TestNextNone
+--- PASS: TestNextNone (0.00s)
+=== RUN   TestNextFiltered
+--- PASS: TestNextFiltered (0.00s)
+=== RUN   TestNextFilteredInvalid
+--- PASS: TestNextFilteredInvalid (0.00s)
+=== RUN   TestNextFilteredRollback
+--- PASS: TestNextFilteredRollback (0.00s)
+=== RUN   TestNextFiltered2
+--- PASS: TestNextFiltered2 (0.00s)
+=== RUN   TestPrev
+--- PASS: TestPrev (0.00s)
+=== RUN   TestPrevRollback
+--- PASS: TestPrevRollback (0.00s)
+=== RUN   TestPrev2
+--- PASS: TestPrev2 (0.00s)
+=== RUN   TestPrevNone
+--- PASS: TestPrevNone (0.00s)
+=== RUN   TestPrevFiltered
+--- PASS: TestPrevFiltered (0.00s)
+=== RUN   TestPrevFilteredInvalid
+--- PASS: TestPrevFilteredInvalid (0.00s)
+=== RUN   TestPrevFilteredRollback
+--- PASS: TestPrevFilteredRollback (0.00s)
+=== RUN   TestNextAll
+--- PASS: TestNextAll (0.00s)
+=== RUN   TestNextAllRollback
+--- PASS: TestNextAllRollback (0.00s)
+=== RUN   TestNextAll2
+--- PASS: TestNextAll2 (0.00s)
+=== RUN   TestNextAllNone
+--- PASS: TestNextAllNone (0.00s)
+=== RUN   TestNextAllFiltered
+--- PASS: TestNextAllFiltered (0.00s)
+=== RUN   TestNextAllFilteredInvalid
+--- PASS: TestNextAllFilteredInvalid (0.00s)
+=== RUN   TestNextAllFilteredRollback
+--- PASS: TestNextAllFilteredRollback (0.00s)
+=== RUN   TestNextAllFiltered2
+--- PASS: TestNextAllFiltered2 (0.00s)
+=== RUN   TestPrevAll
+--- PASS: TestPrevAll (0.00s)
+=== RUN   TestPrevAllOrder
+--- PASS: TestPrevAllOrder (0.00s)
+=== RUN   TestPrevAllRollback
+--- PASS: TestPrevAllRollback (0.00s)
+=== RUN   TestPrevAll2
+--- PASS: TestPrevAll2 (0.00s)
+=== RUN   TestPrevAllFiltered
+--- PASS: TestPrevAllFiltered (0.00s)
+=== RUN   TestPrevAllFilteredInvalid
+--- PASS: TestPrevAllFilteredInvalid (0.00s)
+=== RUN   TestPrevAllFilteredRollback
+--- PASS: TestPrevAllFilteredRollback (0.00s)
+=== RUN   TestNextUntil
+--- PASS: TestNextUntil (0.00s)
+=== RUN   TestNextUntilInvalid
+--- PASS: TestNextUntilInvalid (0.00s)
+=== RUN   TestNextUntil2
+--- PASS: TestNextUntil2 (0.00s)
+=== RUN   TestNextUntilOrder
+--- PASS: TestNextUntilOrder (0.00s)
+=== RUN   TestNextUntilRollback
+--- PASS: TestNextUntilRollback (0.00s)
+=== RUN   TestNextUntilSelection
+--- PASS: TestNextUntilSelection (0.00s)
+=== RUN   TestNextUntilSelectionRollback
+--- PASS: TestNextUntilSelectionRollback (0.00s)
+=== RUN   TestNextUntilNodes
+--- PASS: TestNextUntilNodes (0.00s)
+=== RUN   TestNextUntilNodesRollback
+--- PASS: TestNextUntilNodesRollback (0.00s)
+=== RUN   TestPrevUntil
+--- PASS: TestPrevUntil (0.00s)
+=== RUN   TestPrevUntilInvalid
+--- PASS: TestPrevUntilInvalid (0.00s)
+=== RUN   TestPrevUntil2
+--- PASS: TestPrevUntil2 (0.00s)
+=== RUN   TestPrevUntilOrder
+--- PASS: TestPrevUntilOrder (0.00s)
+=== RUN   TestPrevUntilRollback
+--- PASS: TestPrevUntilRollback (0.00s)
+=== RUN   TestPrevUntilSelection
+--- PASS: TestPrevUntilSelection (0.00s)
+=== RUN   TestPrevUntilSelectionRollback
+--- PASS: TestPrevUntilSelectionRollback (0.00s)
+=== RUN   TestPrevUntilNodes
+--- PASS: TestPrevUntilNodes (0.00s)
+=== RUN   TestPrevUntilNodesRollback
+--- PASS: TestPrevUntilNodesRollback (0.00s)
+=== RUN   TestNextFilteredUntil
+--- PASS: TestNextFilteredUntil (0.00s)
+=== RUN   TestNextFilteredUntilInvalid
+--- PASS: TestNextFilteredUntilInvalid (0.00s)
+=== RUN   TestNextFilteredUntilRollback
+--- PASS: TestNextFilteredUntilRollback (0.00s)
+=== RUN   TestNextFilteredUntilSelection
+--- PASS: TestNextFilteredUntilSelection (0.00s)
+=== RUN   TestNextFilteredUntilSelectionRollback
+--- PASS: TestNextFilteredUntilSelectionRollback (0.00s)
+=== RUN   TestNextFilteredUntilNodes
+--- PASS: TestNextFilteredUntilNodes (0.00s)
+=== RUN   TestNextFilteredUntilNodesRollback
+--- PASS: TestNextFilteredUntilNodesRollback (0.00s)
+=== RUN   TestPrevFilteredUntil
+--- PASS: TestPrevFilteredUntil (0.00s)
+=== RUN   TestPrevFilteredUntilInvalid
+--- PASS: TestPrevFilteredUntilInvalid (0.00s)
+=== RUN   TestPrevFilteredUntilRollback
+--- PASS: TestPrevFilteredUntilRollback (0.00s)
+=== RUN   TestPrevFilteredUntilSelection
+--- PASS: TestPrevFilteredUntilSelection (0.00s)
+=== RUN   TestPrevFilteredUntilSelectionRollback
+--- PASS: TestPrevFilteredUntilSelectionRollback (0.00s)
+=== RUN   TestPrevFilteredUntilNodes
+--- PASS: TestPrevFilteredUntilNodes (0.00s)
+=== RUN   TestPrevFilteredUntilNodesRollback
+--- PASS: TestPrevFilteredUntilNodesRollback (0.00s)
+=== RUN   TestClosestItself
+--- PASS: TestClosestItself (0.00s)
+=== RUN   TestClosestNoDupes
+--- PASS: TestClosestNoDupes (0.00s)
+=== RUN   TestClosestNone
+--- PASS: TestClosestNone (0.00s)
+=== RUN   TestClosestInvalid
+--- PASS: TestClosestInvalid (0.00s)
+=== RUN   TestClosestMany
+--- PASS: TestClosestMany (0.00s)
+=== RUN   TestClosestRollback
+--- PASS: TestClosestRollback (0.00s)
+=== RUN   TestClosestSelectionItself
+--- PASS: TestClosestSelectionItself (0.00s)
+=== RUN   TestClosestSelectionNoDupes
+--- PASS: TestClosestSelectionNoDupes (0.00s)
+=== RUN   TestClosestSelectionNone
+--- PASS: TestClosestSelectionNone (0.00s)
+=== RUN   TestClosestSelectionMany
+--- PASS: TestClosestSelectionMany (0.00s)
+=== RUN   TestClosestSelectionRollback
+--- PASS: TestClosestSelectionRollback (0.00s)
+=== RUN   TestClosestNodesItself
+--- PASS: TestClosestNodesItself (0.00s)
+=== RUN   TestClosestNodesNoDupes
+--- PASS: TestClosestNodesNoDupes (0.00s)
+=== RUN   TestClosestNodesNone
+--- PASS: TestClosestNodesNone (0.00s)
+=== RUN   TestClosestNodesMany
+--- PASS: TestClosestNodesMany (0.00s)
+=== RUN   TestClosestNodesRollback
+--- PASS: TestClosestNodesRollback (0.00s)
+=== RUN   TestIssue26
+--- PASS: TestIssue26 (0.00s)
+=== RUN   TestNewDocument
+--- PASS: TestNewDocument (0.00s)
+=== RUN   TestNewDocumentFromReader
+--- PASS: TestNewDocumentFromReader (0.00s)
+=== RUN   TestNewDocumentFromResponseNil
+--- PASS: TestNewDocumentFromResponseNil (0.00s)
+=== RUN   TestIssue103
+    type_test.go:208: 0: 83 - "S"
+    type_test.go:208: 1: 99 - "c"
+    type_test.go:208: 2: 105 - "i"
+    type_test.go:208: 3: 101 - "e"
+    type_test.go:208: 4: 110 - "n"
+    type_test.go:208: 5: 116 - "t"
+    type_test.go:208: 6: 105 - "i"
+    type_test.go:208: 7: 115 - "s"
+    type_test.go:208: 8: 116 - "t"
+    type_test.go:208: 9: 115 - "s"
+    type_test.go:208: 10: 32 - " "
+    type_test.go:208: 11: 83 - "S"
+    type_test.go:208: 12: 116 - "t"
+    type_test.go:208: 13: 111 - "o"
+    type_test.go:208: 14: 114 - "r"
+    type_test.go:208: 15: 101 - "e"
+    type_test.go:208: 16: 100 - "d"
+    type_test.go:208: 17: 32 - " "
+    type_test.go:208: 18: 84 - "T"
+    type_test.go:208: 19: 104 - "h"
+    type_test.go:208: 20: 101 - "e"
+    type_test.go:208: 21: 115 - "s"
+    type_test.go:208: 22: 101 - "e"
+    type_test.go:208: 23: 32 - " "
+    type_test.go:208: 24: 73 - "I"
+    type_test.go:208: 25: 109 - "m"
+    type_test.go:208: 26: 97 - "a"
+    type_test.go:208: 27: 103 - "g"
+    type_test.go:208: 28: 101 - "e"
+    type_test.go:208: 29: 115 - "s"
+    type_test.go:208: 30: 32 - " "
+    type_test.go:208: 31: 105 - "i"
+    type_test.go:208: 32: 110 - "n"
+    type_test.go:208: 33: 32 - " "
+    type_test.go:208: 34: 68 - "D"
+    type_test.go:208: 35: 78 - "N"
+    type_test.go:208: 36: 65 - "A"
+    type_test.go:208: 37: 8212 - "—"
+    type_test.go:208: 40: 84 - "T"
+    type_test.go:208: 41: 104 - "h"
+    type_test.go:208: 42: 101 - "e"
+    type_test.go:208: 43: 110 - "n"
+    type_test.go:208: 44: 32 - " "
+    type_test.go:208: 45: 70 - "F"
+    type_test.go:208: 46: 108 - "l"
+    type_test.go:208: 47: 97 - "a"
+    type_test.go:208: 48: 119 - "w"
+    type_test.go:208: 49: 108 - "l"
+    type_test.go:208: 50: 101 - "e"
+    type_test.go:208: 51: 115 - "s"
+    type_test.go:208: 52: 115 - "s"
+    type_test.go:208: 53: 108 - "l"
+    type_test.go:208: 54: 121 - "y"
+    type_test.go:208: 55: 32 - " "
+    type_test.go:208: 56: 82 - "R"
+    type_test.go:208: 57: 101 - "e"
+    type_test.go:208: 58: 116 - "t"
+    type_test.go:208: 59: 114 - "r"
+    type_test.go:208: 60: 105 - "i"
+    type_test.go:208: 61: 101 - "e"
+    type_test.go:208: 62: 118 - "v"
+    type_test.go:208: 63: 101 - "e"
+    type_test.go:208: 64: 100 - "d"
+    type_test.go:208: 65: 32 - " "
+    type_test.go:208: 66: 84 - "T"
+    type_test.go:208: 67: 104 - "h"
+    type_test.go:208: 68: 101 - "e"
+    type_test.go:208: 69: 109 - "m"
+    type_test.go:210: Scientists Stored These Images in DNA—Then Flawlessly Retrieved Them
+--- PASS: TestIssue103 (0.00s)
+=== RUN   TestSingle
+--- PASS: TestSingle (0.00s)
+=== RUN   TestNewDocumentFromReaderWithOptions
+--- PASS: TestNewDocumentFromReaderWithOptions (0.00s)
+=== RUN   TestNewDocumentFromReaderWithOptionsNoOptions
+--- PASS: TestNewDocumentFromReaderWithOptionsNoOptions (0.00s)
+=== RUN   TestNewDocumentFromReaderWithOptionsAppliesToAddedHtml
+--- PASS: TestNewDocumentFromReaderWithOptionsAppliesToAddedHtml (0.00s)
+=== RUN   TestNodeName
+--- PASS: TestNodeName (0.00s)
+=== RUN   TestNodeNameMultiSel
+--- PASS: TestNodeNameMultiSel (0.00s)
+=== RUN   TestText_NilOptions
+--- PASS: TestText_NilOptions (0.00s)
+=== RUN   TestText_SeparatorAndTrim
+--- PASS: TestText_SeparatorAndTrim (0.00s)
+=== RUN   TestText_Keep
+--- PASS: TestText_Keep (0.00s)
+=== RUN   TestText_MultiSelection
+--- PASS: TestText_MultiSelection (0.00s)
+=== RUN   TestText_EmptySelection
+--- PASS: TestText_EmptySelection (0.00s)
+=== RUN   TestText_KeepFiltersAll
+--- PASS: TestText_KeepFiltersAll (0.00s)
+=== RUN   TestOuterHtml
+--- PASS: TestOuterHtml (0.00s)
+=== RUN   ExampleNewDocumentFromReader_string
+--- PASS: ExampleNewDocumentFromReader_string (0.00s)
+=== RUN   ExampleSingle
+--- PASS: ExampleSingle (0.00s)
+=== RUN   ExampleText
+--- PASS: ExampleText (0.00s)
+PASS
+coverage: 88.4% of statements
+ok  	github.com/PuerkitoBio/goquery	0.110s	coverage: 88.4% of statements

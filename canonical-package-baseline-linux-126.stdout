@@ -1,0 +1,6 @@
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"old\u003cb\u003enew\u003c/b\u003e","foreignFirst":false,"htmlB":0,"htmlText":"old\u003cb\u003enew\u003c/b\u003e","operation":"append","pass":false,"runtime":"go1.26.10","svgB":0}
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"old\u003cb\u003enew\u003c/b\u003e","foreignFirst":true,"htmlB":1,"htmlText":"oldnew","operation":"append","pass":false,"runtime":"go1.26.10","svgB":1}
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"\u003cb\u003enew\u003c/b\u003eold","foreignFirst":false,"htmlB":0,"htmlText":"\u003cb\u003enew\u003c/b\u003eold","operation":"prepend","pass":false,"runtime":"go1.26.10","svgB":0}
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"\u003cb\u003enew\u003c/b\u003eold","foreignFirst":true,"htmlB":1,"htmlText":"newold","operation":"prepend","pass":false,"runtime":"go1.26.10","svgB":1}
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"\u003cb\u003enew\u003c/b\u003e","foreignFirst":false,"htmlB":0,"htmlText":"\u003cb\u003enew\u003c/b\u003e","operation":"set","pass":false,"runtime":"go1.26.10","svgB":0}
+{"artifactVersion":"v0.0.0-canonical","expectedHTMLText":"\u003cb\u003enew\u003c/b\u003e","foreignFirst":true,"htmlB":1,"htmlText":"new","operation":"set","pass":false,"runtime":"go1.26.10","svgB":1}

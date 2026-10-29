@@ -1,0 +1,798 @@
+[
+  {
+    "name": "canonical-gofmt",
+    "command": [
+      "$GO127_HOME\\bin\\gofmt.exe",
+      "-l",
+      "$PROOF\\canonical-candidate\\array.go",
+      "$PROOF\\canonical-candidate\\array_test.go",
+      "$PROOF\\canonical-candidate\\bench_array_test.go",
+      "$PROOF\\canonical-candidate\\bench_example_test.go",
+      "$PROOF\\canonical-candidate\\bench_expand_test.go",
+      "$PROOF\\canonical-candidate\\bench_filter_test.go",
+      "$PROOF\\canonical-candidate\\bench_iteration_test.go",
+      "$PROOF\\canonical-candidate\\bench_property_test.go",
+      "$PROOF\\canonical-candidate\\bench_query_test.go",
+      "$PROOF\\canonical-candidate\\bench_traversal_test.go",
+      "$PROOF\\canonical-candidate\\doc.go",
+      "$PROOF\\canonical-candidate\\example_test.go",
+      "$PROOF\\canonical-candidate\\expand.go",
+      "$PROOF\\canonical-candidate\\expand_test.go",
+      "$PROOF\\canonical-candidate\\filter.go",
+      "$PROOF\\canonical-candidate\\filter_test.go",
+      "$PROOF\\canonical-candidate\\iteration.go",
+      "$PROOF\\canonical-candidate\\iteration_test.go",
+      "$PROOF\\canonical-candidate\\manipulation.go",
+      "$PROOF\\canonical-candidate\\manipulation_test.go",
+      "$PROOF\\canonical-candidate\\property.go",
+      "$PROOF\\canonical-candidate\\property_attr_nodes_test.go",
+      "$PROOF\\canonical-candidate\\property_class_nodes_test.go",
+      "$PROOF\\canonical-candidate\\property_test.go",
+      "$PROOF\\canonical-candidate\\property_unicode_class_test.go",
+      "$PROOF\\canonical-candidate\\query.go",
+      "$PROOF\\canonical-candidate\\query_test.go",
+      "$PROOF\\canonical-candidate\\traversal.go",
+      "$PROOF\\canonical-candidate\\traversal_test.go",
+      "$PROOF\\canonical-candidate\\type.go",
+      "$PROOF\\canonical-candidate\\type_test.go",
+      "$PROOF\\canonical-candidate\\utilities.go",
+      "$PROOF\\canonical-candidate\\utilities_test.go"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:47.074276+00:00",
+    "completedAt": "2026-10-29T21:32:47.144292+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-environment",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "version"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:56.385959+00:00",
+    "completedAt": "2026-10-29T21:32:56.647411+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-baseline-ci",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-baseline",
+      "heartbeat2113-goquery",
+      "go",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:56.647411+00:00",
+    "completedAt": "2026-10-29T21:32:58.737772+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-127-baseline-ci",
+    "command": [
+      "$GO127",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$PROOF\\canonical-baseline",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:56.698682+00:00",
+    "completedAt": "2026-10-29T21:32:59.013705+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-candidate-ci",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:58.738288+00:00",
+    "completedAt": "2026-10-29T21:32:59.972847+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-candidate-vet",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "vet",
+      "./..."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:59.973356+00:00",
+    "completedAt": "2026-10-29T21:33:00.910452+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-127-candidate-ci",
+    "command": [
+      "$GO127",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:32:59.014246+00:00",
+    "completedAt": "2026-10-29T21:33:01.281818+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-candidate-build",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "build",
+      "./..."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:00.910969+00:00",
+    "completedAt": "2026-10-29T21:33:01.395747+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-126-environment",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=go1.26.10",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "version"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:01.396259+00:00",
+    "completedAt": "2026-10-29T21:33:01.726133+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-127-candidate-vet",
+    "command": [
+      "$GO127",
+      "vet",
+      "./..."
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:01.282336+00:00",
+    "completedAt": "2026-10-29T21:33:02.936330+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-126-baseline-ci",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=go1.26.10",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-baseline",
+      "heartbeat2113-goquery",
+      "go",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:01.726648+00:00",
+    "completedAt": "2026-10-29T21:33:03.212778+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-baseline-windows-127",
+    "command": [
+      "$GO127",
+      "run",
+      "."
+    ],
+    "cwd": "$PROOF\\canonical-consumer-baseline",
+    "environment": {
+      "GOPROXY": "file:///$PROOF/canonical-proxy-baseline,https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:00.144421+00:00",
+    "completedAt": "2026-10-29T21:33:03.493714+00:00",
+    "returncode": 1
+  },
+  {
+    "name": "canonical-windows-127-candidate-build",
+    "command": [
+      "$GO127",
+      "build",
+      "./..."
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:02.936843+00:00",
+    "completedAt": "2026-10-29T21:33:03.708896+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-126-candidate-ci",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=go1.26.10",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:03.214084+00:00",
+    "completedAt": "2026-10-29T21:33:04.514941+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-126-candidate-vet",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=go1.26.10",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "vet",
+      "./..."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:04.515451+00:00",
+    "completedAt": "2026-10-29T21:33:05.502874+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-baseline-windows-126",
+    "command": [
+      "$GO126",
+      "run",
+      "."
+    ],
+    "cwd": "$PROOF\\canonical-consumer-baseline",
+    "environment": {
+      "GOPROXY": "file:///$PROOF/canonical-proxy-baseline,https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:03.494231+00:00",
+    "completedAt": "2026-10-29T21:33:05.631716+00:00",
+    "returncode": 1
+  },
+  {
+    "name": "canonical-linux-126-candidate-build",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=go1.26.10",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "build",
+      "./..."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:05.503394+00:00",
+    "completedAt": "2026-10-29T21:33:06.103642+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-126-baseline-ci",
+    "command": [
+      "$GO127",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$PROOF\\canonical-baseline",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "go1.26.10"
+    },
+    "startedAt": "2026-10-29T21:33:03.709992+00:00",
+    "completedAt": "2026-10-29T21:33:06.595962+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-127-candidate-race",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=https://proxy.golang.org",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-candidate",
+      "heartbeat2113-goquery",
+      "go",
+      "test",
+      "-race",
+      "-count=1",
+      "./..."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:06.104149+00:00",
+    "completedAt": "2026-10-29T21:33:08.669628+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-linux-os",
+    "command": [
+      "docker",
+      "exec",
+      "heartbeat2113-goquery",
+      "cat",
+      "/etc/os-release"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:08.670139+00:00",
+    "completedAt": "2026-10-29T21:33:08.936204+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-126-candidate-ci",
+    "command": [
+      "$GO127",
+      "test",
+      "./...",
+      "-v",
+      "-cover"
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "go1.26.10"
+    },
+    "startedAt": "2026-10-29T21:33:06.596480+00:00",
+    "completedAt": "2026-10-29T21:33:09.158403+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-126-candidate-vet",
+    "command": [
+      "$GO127",
+      "vet",
+      "./..."
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "go1.26.10"
+    },
+    "startedAt": "2026-10-29T21:33:09.158403+00:00",
+    "completedAt": "2026-10-29T21:33:11.220100+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-candidate-windows-127",
+    "command": [
+      "$GO127",
+      "run",
+      "."
+    ],
+    "cwd": "$PROOF\\canonical-consumer-candidate",
+    "environment": {
+      "GOPROXY": "file:///$PROOF/canonical-proxy-candidate,https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:08.710905+00:00",
+    "completedAt": "2026-10-29T21:33:11.559451+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-126-candidate-build",
+    "command": [
+      "$GO127",
+      "build",
+      "./..."
+    ],
+    "cwd": "$PROOF\\canonical-candidate",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "go1.26.10"
+    },
+    "startedAt": "2026-10-29T21:33:11.225616+00:00",
+    "completedAt": "2026-10-29T21:33:12.433107+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-candidate-windows-126",
+    "command": [
+      "$GO126",
+      "run",
+      "."
+    ],
+    "cwd": "$PROOF\\canonical-consumer-candidate",
+    "environment": {
+      "GOPROXY": "file:///$PROOF/canonical-proxy-candidate,https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:11.559993+00:00",
+    "completedAt": "2026-10-29T21:33:13.542278+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-baseline-linux-127",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=file:///work/canonical-proxy-baseline,https://proxy.golang.org",
+      "-e",
+      "GOSUMDB=off",
+      "-e",
+      "GOMODCACHE=/work/canonical-module-cache-baseline",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-consumer-baseline",
+      "heartbeat2113-goquery",
+      "/usr/local/go/bin/go",
+      "run",
+      "."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:28.354022+00:00",
+    "completedAt": "2026-10-29T21:33:31.659088+00:00",
+    "returncode": 1
+  },
+  {
+    "name": "canonical-package-baseline-linux-126",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=file:///work/canonical-proxy-baseline,https://proxy.golang.org",
+      "-e",
+      "GOSUMDB=off",
+      "-e",
+      "GOMODCACHE=/work/canonical-module-cache-baseline",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-consumer-baseline",
+      "heartbeat2113-goquery",
+      "/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.10.linux-amd64/bin/go",
+      "run",
+      "."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:31.660088+00:00",
+    "completedAt": "2026-10-29T21:33:32.506662+00:00",
+    "returncode": 1
+  },
+  {
+    "name": "canonical-package-candidate-linux-127",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=file:///work/canonical-proxy-candidate,https://proxy.golang.org",
+      "-e",
+      "GOSUMDB=off",
+      "-e",
+      "GOMODCACHE=/work/canonical-module-cache-candidate",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-consumer-candidate",
+      "heartbeat2113-goquery",
+      "/usr/local/go/bin/go",
+      "run",
+      "."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:32.986707+00:00",
+    "completedAt": "2026-10-29T21:33:36.464329+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-package-candidate-linux-126",
+    "command": [
+      "docker",
+      "exec",
+      "-e",
+      "GOTOOLCHAIN=local",
+      "-e",
+      "GOPROXY=file:///work/canonical-proxy-candidate,https://proxy.golang.org",
+      "-e",
+      "GOSUMDB=off",
+      "-e",
+      "GOMODCACHE=/work/canonical-module-cache-candidate",
+      "-e",
+      "GOMAXPROCS=2",
+      "-w",
+      "/work/canonical-consumer-candidate",
+      "heartbeat2113-goquery",
+      "/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.10.linux-amd64/bin/go",
+      "run",
+      "."
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:36.465331+00:00",
+    "completedAt": "2026-10-29T21:33:37.345068+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-windows-127-baseline-regression",
+    "command": [
+      "$GO127",
+      "test",
+      "-count=1",
+      "-v",
+      "-run",
+      "Test(AppendHtmlNamespaceContext|SetHtmlNamespaceContext|HtmlInsertionNamespaceContext)",
+      "./..."
+    ],
+    "cwd": "$PROOF\\canonical-baseline-regression",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:38.126005+00:00",
+    "completedAt": "2026-10-29T21:33:39.757016+00:00",
+    "returncode": 1
+  },
+  {
+    "name": "canonical-gofmt-changed-files",
+    "command": [
+      "$GO127_HOME\\bin\\gofmt.exe",
+      "-l",
+      "$PROOF\\canonical-candidate\\manipulation.go",
+      "$PROOF\\canonical-candidate\\manipulation_test.go"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:49.558197+00:00",
+    "completedAt": "2026-10-29T21:33:49.618582+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-gofmt-baseline-all",
+    "command": [
+      "$GO127_HOME\\bin\\gofmt.exe",
+      "-l",
+      "$PROOF\\canonical-baseline\\array.go",
+      "$PROOF\\canonical-baseline\\array_test.go",
+      "$PROOF\\canonical-baseline\\bench_array_test.go",
+      "$PROOF\\canonical-baseline\\bench_example_test.go",
+      "$PROOF\\canonical-baseline\\bench_expand_test.go",
+      "$PROOF\\canonical-baseline\\bench_filter_test.go",
+      "$PROOF\\canonical-baseline\\bench_iteration_test.go",
+      "$PROOF\\canonical-baseline\\bench_property_test.go",
+      "$PROOF\\canonical-baseline\\bench_query_test.go",
+      "$PROOF\\canonical-baseline\\bench_traversal_test.go",
+      "$PROOF\\canonical-baseline\\doc.go",
+      "$PROOF\\canonical-baseline\\example_test.go",
+      "$PROOF\\canonical-baseline\\expand.go",
+      "$PROOF\\canonical-baseline\\expand_test.go",
+      "$PROOF\\canonical-baseline\\filter.go",
+      "$PROOF\\canonical-baseline\\filter_test.go",
+      "$PROOF\\canonical-baseline\\iteration.go",
+      "$PROOF\\canonical-baseline\\iteration_test.go",
+      "$PROOF\\canonical-baseline\\manipulation.go",
+      "$PROOF\\canonical-baseline\\manipulation_test.go",
+      "$PROOF\\canonical-baseline\\property.go",
+      "$PROOF\\canonical-baseline\\property_attr_nodes_test.go",
+      "$PROOF\\canonical-baseline\\property_class_nodes_test.go",
+      "$PROOF\\canonical-baseline\\property_test.go",
+      "$PROOF\\canonical-baseline\\property_unicode_class_test.go",
+      "$PROOF\\canonical-baseline\\query.go",
+      "$PROOF\\canonical-baseline\\query_test.go",
+      "$PROOF\\canonical-baseline\\traversal.go",
+      "$PROOF\\canonical-baseline\\traversal_test.go",
+      "$PROOF\\canonical-baseline\\type.go",
+      "$PROOF\\canonical-baseline\\type_test.go",
+      "$PROOF\\canonical-baseline\\utilities.go",
+      "$PROOF\\canonical-baseline\\utilities_test.go"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:49.619582+00:00",
+    "completedAt": "2026-10-29T21:33:49.734293+00:00",
+    "returncode": 0
+  },
+  {
+    "name": "canonical-gofmt-existing-doc-diff",
+    "command": [
+      "$GO127_HOME\\bin\\gofmt.exe",
+      "-d",
+      "$PROOF\\canonical-baseline\\doc.go"
+    ],
+    "cwd": "$CHECKOUT",
+    "environment": {
+      "GOPROXY": "https://proxy.golang.org",
+      "GOTOOLCHAIN": "local"
+    },
+    "startedAt": "2026-10-29T21:33:49.735294+00:00",
+    "completedAt": "2026-10-29T21:33:49.794835+00:00",
+    "returncode": 1
+  }
+]
